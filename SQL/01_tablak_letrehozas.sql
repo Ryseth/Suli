@@ -1,5 +1,4 @@
-create database suli;
-use suli;
+
 Create table diakok(
 	azon int primary key not null auto_increment,
 	nev text,
