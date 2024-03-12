@@ -1,4 +1,3 @@
-
 Create table diakok(
 	azon int primary key not null auto_increment,
 	nev text,
@@ -33,8 +32,7 @@ create table tantargyak(
 	tanterem_azon int,
 	szakkor_azon int
 );
-ALTER table tantargyak ADD FOREIGN KEY (szakkor_azon) REFERENCES szakkor(azon);
-ALTER table tantargyak ADD FOREIGN KEY (tanterem_azon) REFERENCES tantermek(azon);
+
 create table tantermek(
 	azon int primary key not null auto_increment,
 	megnevezes text,
@@ -44,7 +42,7 @@ create table tantermek(
 	digitalis_tabla bool,
 	osztaly_azon int
 	);
-ALTER table tantermek ADD FOREIGN KEY (osztaly_azon) REFERENCES osztalyok(azon);
+
 create table szerzodeses_alkalmazottak(
 	azon int primary key not null auto_increment,
 	nev text,
@@ -55,7 +53,7 @@ create table szerzodeses_alkalmazottak(
 	mellek_feladat text,
 	extra_juttatas int
 );
-ALTER table szerzodeses_alkalmazottak ADD FOREIGN KEY (bankszamla_szam) REFERENCES bank(ugyfel_szamlaszam);
+
 create table osztalyok(
 	azon int primary key not null auto_increment,
 	osztaly_nev text,
@@ -166,4 +164,3 @@ create table tranzakciok(
 	megjegyzes text,
 	datum date
 );
-
