@@ -1,16 +1,17 @@
+drop table if exists diakok;
 Create table diakok(
 	azon int primary key not null auto_increment,
 	nev text,
 	lakcim text,
 	szul_dat date,
 	szul_hely text,
-	osztaly_azon int,
 	igazolt_hianyzasok int,
 	igazolatlan_hianyzasok int,
 	intok_szama int,
 	kotelezettsegek text,
 	feladatok text
 	);
+drop table if exists tanarok;
 CREATE table tanarok(
 	azon int primary key not null auto_increment,
 	nev text,
@@ -24,7 +25,7 @@ CREATE table tanarok(
 	heti_oraszam int,
 	beosztas text
 );
-
+drop table if exists tantargyak;
 create table tantargyak(
 	azon int primary key not null auto_increment,
 	megnevezes text,
@@ -33,6 +34,7 @@ create table tantargyak(
 	szakkor_azon int
 );
 
+drop table if exists tantermek;
 create table tantermek(
 	azon int primary key not null auto_increment,
 	megnevezes text,
@@ -43,6 +45,7 @@ create table tantermek(
 	osztaly_azon int
 	);
 
+drop table if exists szerzodeses_alkalmazottak;
 create table szerzodeses_alkalmazottak(
 	azon int primary key not null auto_increment,
 	nev text,
@@ -53,7 +56,7 @@ create table szerzodeses_alkalmazottak(
 	mellek_feladat text,
 	extra_juttatas int
 );
-
+drop table if exists osztalyok;
 create table osztalyok(
 	azon int primary key not null auto_increment,
 	osztaly_nev text,
@@ -62,7 +65,7 @@ create table osztalyok(
 	tanterem_azon int,
 	hetes_azon int
 );
-
+drop table if exists osztalyzatok;
 create table osztalyzatok(
 	azon int primary key not null auto_increment,
 	diak_azon int,
@@ -71,7 +74,7 @@ create table osztalyzatok(
 	megjegyzes text,
 	datum date
 );
-
+drop table if exists intok;
 create table intok(
 	azon int primary key not null auto_increment,
 	diak_azon int,
@@ -80,30 +83,41 @@ create table intok(
 	into_szoveg text,
 	megjegyzes text
 );
-
+drop table if exists szakkor;
 create table szakkor(
 	azon int primary key not null auto_increment,
 	nev text,
-	diak_azon int,
 	max_letszam int,
 	tanar_azon int,
 	heti_oraszam int
 );
-
+drop table if exists szakkor_resztvevok;
+create table szakkor_resztvevok(
+	azon int primary key not null auto_increment,
+	szakkor_azon int not null,
+	diak_azon int not null
+);
+drop table if exists emelt_felkeszito;
 create table emelt_felkeszito(
 	azon int primary key not null auto_increment,
 	tantargy_azon int,
-	diak_azon int,
 	heti_oraszam int,
 	tanar_azon int,
 	max_letszam int
 );
-
+drop table if exists emelt_felkeszito_resztvevok;
+create table emelt_felkeszito_resztvevok(
+	azon int primary key not null auto_increment,
+	emelt_felkeszito_azon int not null,
+	diak_azon int not null
+);
+drop table if exists sport;
 create table sport(
 	azon int primary key not null auto_increment,
 	megnevezes text
 );
 
+drop table if exists rendezvenyek;
 create table rendezvenyek(
 	azon int primary key not null auto_increment,
 	megnevezes text,
@@ -112,9 +126,10 @@ create table rendezvenyek(
 	helyszin text,
 	tanterem_azon int
 );
-
-create table rendezveny_szervok(
+drop table if exists rendezveny_szervezok;
+create table rendezveny_szervezok(
 	azon int primary key not null auto_increment,
+	rendezveny_azon int not null,
 	diak_azon int,
 	feladat text,
 	tanar_azon int,
@@ -122,7 +137,7 @@ create table rendezveny_szervok(
 	jutalom_megjegyzes text
 );
 
-
+drop table if exists versenyek;
 create table versenyek(
 	azon int primary key not null auto_increment,
 	datum date,
@@ -130,6 +145,7 @@ create table versenyek(
 	sport_azon int
 );
 
+drop table if exists versenyzok;
 create table versenyzok(
 	azon int primary key not null auto_increment,
 	diak_azon int,
@@ -140,15 +156,16 @@ create table versenyzok(
 	erem text
 );
 
+drop table if exists hetesek;
 create table hetesek(
 	azon int primary key not null auto_increment,
 	diak_azon int,
 	osztaly_azon int,
 	datum date
 );
+drop table if exists bank;
 create table bank(
 	ugyfel_szamlaszam varchar(20) primary key not null,
-	ugyfel_azon int,
 	ugyfel_nev text,
 	ugyfel_lakcim text,
 	ugyfel_levelezesi_cim text,
@@ -157,6 +174,7 @@ create table bank(
 	hitel_torleszto int,
 	premium bool
 );
+drop table if exists tranzakciok;
 create table tranzakciok(
 	azon int primary key not null auto_increment,
 	forras_szla_szam varchar(20),
