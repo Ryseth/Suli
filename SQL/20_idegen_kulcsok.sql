@@ -1,3 +1,4 @@
+SET FOREIGN_KEY_CHECKS=0;
 ALTER table tantargyak ADD FOREIGN KEY (szakkor_azon) REFERENCES szakkor(azon);
 ALTER table tantargyak ADD FOREIGN KEY (tanterem_azon) REFERENCES tantermek(azon);
 ALTER table tantermek ADD FOREIGN KEY (osztaly_azon) REFERENCES osztalyok(azon);
@@ -16,8 +17,8 @@ ALTER table emelt_felkeszito  ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon
 ALTER table emelt_felkeszito  ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
 ALTER table emelt_felkeszito  ADD FOREIGN KEY (tantargy_azon) REFERENCES tantargyak(azon);
 ALTER table rendezvenyek ADD FOREIGN KEY (tanterem_azon) REFERENCES tantermek(azon);
-ALTER table rendezveny_szervok  ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
-ALTER table rendezveny_szervok  ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
+ALTER table rendezveny_szervezok  ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
+ALTER table rendezveny_szervezok  ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
 ALTER table versenyek ADD FOREIGN KEY (sport_azon) REFERENCES sport(azon);
 ALTER table versenyzok ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
 ALTER table versenyzok ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
