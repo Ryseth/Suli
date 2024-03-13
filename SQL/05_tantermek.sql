@@ -37,3 +37,6 @@ insert into tantermek (megnevezes,max_letszam,padok_szama) values ('11.C osztál
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('12.A osztály tanterme',28,15);
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('12.B osztály tanterme',29,16);
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('12.C osztály tanterme',32,17);
+insert into tantermek (megnevezes,max_letszam,padok_szama) values ('Tornaterem - Női',290,0);
+insert into tantermek (megnevezes,max_letszam,padok_szama) values ('Tornaterem - Férfi',350,0);
+insert into tantermek (megnevezes,max_letszam,padok_szama) values ('Iskola Udvar',7000,0);
