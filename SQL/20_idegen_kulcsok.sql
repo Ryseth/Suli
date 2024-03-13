@@ -31,3 +31,4 @@ alter table szakkor_resztvevok ADD FOREIGN KEY (szakkor_azon) REFERENCES szakkor
 alter table szakkor_resztvevok ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
 alter table emelt_felkeszito_resztvevok ADD FOREIGN KEY (emelt_felkeszito_azon) REFERENCES emelt_felkeszito(azon);
 alter table emelt_felkeszito_resztvevok ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
+SET FOREIGN_KEY_CHECKS=1;
