@@ -19,6 +19,7 @@ ALTER table emelt_felkeszito  ADD FOREIGN KEY (tantargy_azon) REFERENCES tantarg
 ALTER table rendezvenyek ADD FOREIGN KEY (tanterem_azon) REFERENCES tantermek(azon);
 ALTER table rendezveny_szervezok  ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
 ALTER table rendezveny_szervezok  ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
+ALTER table rendezveny_szervezok  ADD FOREIGN KEY (rendezveny_azon) REFERENCES rendezvenyek(azon);
 ALTER table versenyek ADD FOREIGN KEY (sport_azon) REFERENCES sport(azon);
 ALTER table versenyzok ADD FOREIGN KEY (diak_azon) REFERENCES diakok(azon);
 ALTER table versenyzok ADD FOREIGN KEY (tanar_azon) REFERENCES tanarok(azon);
