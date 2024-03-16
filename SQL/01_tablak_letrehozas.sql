@@ -9,7 +9,8 @@ Create table diakok(
 	igazolatlan_hianyzasok int,
 	intok_szama int,
 	kotelezettsegek text,
-	feladatok text
+	feladatok text,
+	osztaly_azon int
 	);
 drop table if exists tanarok;
 CREATE table tanarok(
