@@ -10,6 +10,9 @@ create table bank(
 	hitel_torleszto int,
 	premium bool
 );
+itt csak a fedezet generálása történt meg. 
+mivel a bank táblában már meglévő adatokból kellett dolgozni (vállalkozók és tanárok számlaszámaival)
+bank.csv-ben vannak ezek
 '''
 
 import random
