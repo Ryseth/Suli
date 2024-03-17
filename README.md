@@ -45,17 +45,42 @@ igazolt_hianyzasok - az adott diák igazolt hiányzásai
 igazolatlan_hianyzasok - az adott diák igazolatlan hiányzásai
 kotelezettsegek - alapvetően üres érték, a feladatokban töltjük fel értékkel. A diák elvállalt kötelezettségeit tároljuk it, amit jobb magatartás/szorgalom jegyért cserébe elvállalhat
 feladatok - alapvetően üres. Diákra kiszabott büntető feladat, amit rossz magaviseletéért teljesítenie kell
-osztaly_azon - a diák osztályának az azonosítója (osztályok táblára hivatkozik)
+osztaly_azon - a diák osztályának az azonosítója (osztályok tábla 'azon' oszlopára hivatkoik)
 ```
 Minden diák egy adott osztálynak a tagja. Az osztályok 1-13-ig vannak számozva, ezeken belül 3 osztály lehet: A,B és C
 ezek az *osztalyok* táblában vannak tárolva
 ```
 azon - osztály azonsosítója
 osztaly_nev - osztály neve (pl 9.C)
-osztalyfonok_azon - az osztályfőnök azonosítója (tanárok táblára hivatkozik)
+osztalyfonok_azon - az osztályfőnök azonosítója (tanárok tábla 'azon' oszlopára hivatkoik)
 diak_azon - üres, már nem használt mező, későbbi verzióban majd törlésre kerül. ne foglalkozzatok vele
-tanterem_azon - az osztály tantermének azonosítója (tanterem táblára hivatkozik)
-hetes_azon - az osztály hetesének azonosítója (hetesek táblára hivatkozik)
+tanterem_azon - az osztály tantermének azonosítója (tanterem tábla 'azon' oszlopára hivatkoik)
+hetes_azon - az osztály hetesének azonosítója (hetesek tábla 'azon' oszlopára hivatkoik)
 ```
-
+A nem megfelelő magatartást tanusító diákok részesülhetnek megrovásban. Ezeket az *intok* táblában találjuk. 
+```
+azon - az intő azonosítója
+diak_azon - diák azonosítója (diakok tábla 'azon' oszlopára hivatkoik)
+datum - beírás dátuma
+into_tipusa - az intő típusa (szaktanári, osztályfőnöki, igazgatói)
+into_szoveg - az intő tartalma
+megjegyzes - jelenleg üres, lesz majd rá feladat
+```
+Minden diáknak vannak tantárgyai. Az egyes tantárgyakat a *tantargyak* táblában találjuk és a következőket tároljuk róla
+```
+azon - tantárgy azonosítója
+megnevezes - tárgy megnevezése (pl: Matematika)
+kotelezo - Bool (igaz/hamis), jelzi, hogy egy tantárgy kötelező-e vagy fakultatív. jelenleg üres, feladatokban fogjuk kitölteni
+tanterem_azon -  üres, már nem használt mező, későbbi verzióban majd törlésre kerül. ne foglalkozzatok vele
+szakkor_azon - ha van szakkör a tantárgyhoz, akkor annak a szakkörnek az azonosítója van itt. jelenleg üres, feladat lesz rá.
+```
+A egyes tantárgyakhoz az év során a diákoknak kötelező érdemjegyet szerezni. Ezeket az *osztalyzatok* táblában tároljuk
+```
+azon - osztályzat azonosítója
+diak_azon- diák azonosítója (diakok tábla 'azon' oszlopára hivatkoik)
+tantargy_azon - tantárgy azonosítója (tantargyak tábla 'azon' oszlopára hivatkoik)
+erdemjegy - kapott érdemjegy
+megjegyzes - esetleges megjegyzes (alapvetően üres)
+datum - érdemjeg ybeírásának dátuma
+```
 
