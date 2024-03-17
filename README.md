@@ -119,7 +119,94 @@ rendezveny_azon - rendezvény azonosítója (rendezvenyek  tábla 'azon' oszlop�
 diak_azon - diák azonosítója (diakok  tábla 'azon' oszlopára hivatkoik)
 feladat - az adott diák/tanár feladata a rendezvényen
 tanar_azon - tanár azonosítója (tanarok  tábla 'azon' oszlopára hivatkoik)
-jutalom - rendezvényen való segédkezésért járó jutalom mennyisége
+jutalom - rendezvényen való segédkezésért jár-e jutalom (Bool)
 jutalom_megjegyzes - egyéb megjegyzés a jutalomhoz
+```
+Természetesen a rendezvényeket egy külön táblában tároljuk. a *rendezvenyek* tábla oszlopai:
+```
+azon - egyedi azonosító
+megnevezes - rendezvény neve
+datum - rendezvény időpontja
+max_letszam - max létszám
+helyszin - a rendezvény helyszíne. alapvetően üres, majd feladatok által kapnak értéket
+terem_azon - terem azonosítója, ahova a rendezvény eredetileg tervezték (A tantermek  tábla 'azon' oszlopára hivatkoik)
+```
+
+A diákoknak szintén lehetőségük van különböző versenyeken részt venni. A versenyeken résztvevő diákokról az alábbi adatokat tároljuk a *versenyzok* táblában
+```
+azon - verseny egyedi azonosítója
+diak_azon - diák azonosító (diakok tábla 'azon' oszlopára hivatkoik)
+tanar_azon - kísérő tanár azonosítója (tanarok tábla 'azon' oszlopára hivatkoik)
+verseny_azon - verseny azonosítója (versenyek tábla 'azon' oszlopára hivatkoik)
+helyezes - diák által elért helyezés a versenyen
+dobogos - dobogós-e a diák? alapvetően üres, feladatban kell kitölteni
+erem - milyen érmet kapott a helyezésért? alapvetően üres, majd feladat lesz hozzá
+```
+
+Nyílván, a versenyek egy külön táblában vannak tárolva. a *versenyek* tábla oszlopai:
+```
+azon - egyedi azonosító
+datum - verseny dátuma
+megnevezes - verseny neve
+sport_azon - sport azonosítója, amin a verseny alapul (sport tábla 'azon' oszlopára hivatkoik)
+```
+Végül pedig az egyes sportágakat pedig a *sport* táblában tároljuk
+```
+azon - sportág azonosítója
+megnevezes - sportág neve
+```
+
+Rengeteg táblában szerepelnek, de még nem beszéltünk róluk; ők a Tanárok
+![tanarok](./screenshots/tanarok.png)
+
+Adataikat a *tanarok* táblában kell keresnünk.
+```
+azon - a diák azonosítója (ID-ja) az adatbázisban. automatikusan generált szám
+nev - a diák teljes neve
+lakcim_varos - diák lakhelye (város)
+lakcim_utca - diák lakcíme (utca + házszám)
+szul_dat - diák születési dátuma
+szul_hely - diák születési helye
+fo_tantargy - A tanár által tanított elsődleges tantárgy
+mellek_tantargy - A tanár által tanított másodlagos tantárgy
+bank_szamla_szam - Tanár bankszámla száma (bank tábla 'ugyfel_szamlaszam' oszlopára hivatkoik)
+brutto_ber - a tanár bruttó bére, üres, majd feladat lesz rá
+heti_oraszam - hány órát tanít a héten
+beosztas - beosztás, pl tanársegéd, gyakorlati oktató, mérnöktanár, műszaki tanár, tagozat vezető, igazgató, stb... alapvetően üres, majd feladat által lesznek kitöltve
+```
+Az iskola, még számos vállalkozóval áll kapcsolatban, akik bizonyos alkalmi, iskola körüli munkálatokat szoktak elvégezni.
+Az ő adataik a *szerzodeses_alkalmazottak* táblában lelhetőek fel, amik:
+```
+azon - egyedi azonosító
+nev - vállalkozó/vállalkozás neve
+lakcim - vállalkozó/vállalkozás lakcíme
+bankszamla_szam - vállalkozó/vállalkozás számlaszáma
+brutto_ber - bruttó bére 
+fo_feladat - vállalkozó/vállalkozás által nyújtott fő szolgáltatás
+mellek_feladat - vállalkozó/vállalkozás által nyújtott másodlagos szolgáltatás
+extra_juttatas - nincs használatban, de lehet lesz rá feladat
+```
+
+A tanárok és vállalkozók többségének a lokális 'Ilyen Biztos Nincs (IBN)' Banknál vezetett bankszámlájuk van 
+A bank az ügyfeleiről az alábbi adatokat tárolja:
+```
+ugyfel_szamlaszam - bankszámla szám. Egyedi, nem lehet null. nem töltődik automatikusan
+ugyfel_nev - ügyfél neve
+ugyfel_lakcim - ügyfél lakcíme
+ugyfel_levelezesi_cim - ügyfél levelezési címe
+fedezet  - ügyfél számláján lévő fedezet
+hitel_osszege - ügyfél hitelének összege
+hitel_torleszto - ha van hitele, akkor mennyi annak a havi törlesztője
+premium - prémium ügyfél? (Bool)
+```
+
+Mint minden bank, a pénzügyi tranzakciókat nyílván kell, hogy tartsa. Erre a célra lett a *tranzakciok* tábla létrehozva.
+Ebben a táblában csak a bankon belüli utalásokat jegyzik fel.
+```
+azon - tranzakció azonosítója
+forras_szla_szam - forrás számlaszám, AHONNAN a pénzt utaláták (bank tábla 'ugyfel_szamlaszam' oszlopára hivatkoik)
+cel_szla_szam - cél számlaszám, AHOVÁ a pénzt utalták (bank tábla 'ugyfel_szamlaszam' oszlopára hivatkoik)
+megjegyzes tranzakció megjegyzese
+datum - utalás dátuma
 ```
 
