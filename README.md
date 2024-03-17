@@ -30,4 +30,32 @@ Ha bármi hibába ütköztök, nyugodtan nyissatok egy "issue"-t itt githubon é
 ##### Adatbázis Felépítése
 Itt átvesszük, milyen táblák, mezők és adattípusokat tartalmaz az adatbázis és annak felépítését.
 
-Iskola lévén, a középpontban a *Diákok* vannak
+Iskola lévén, a középpontban a *Diákok* vannak.
+![diakok](./screenshots/diakok.png)
+
+A *diakok* táblában tároljuk az egyes diákokat és adataikat az alábbi módon:
+```
+azon - a diák azonosítója (ID-ja) az adatbázisban. automatikusan generált szám
+nev - a diák teljes neve
+lakcim_varos - diák lakhelye (város)
+lakcim_utca - diák lakcíme (utca + házszám)
+szul_dat - diák születési dátuma
+szul_hely - diák születési helye
+igazolt_hianyzasok - az adott diák igazolt hiányzásai
+igazolatlan_hianyzasok - az adott diák igazolatlan hiányzásai
+kotelezettsegek - alapvetően üres érték, a feladatokban töltjük fel értékkel. A diák elvállalt kötelezettségeit tároljuk it, amit jobb magatartás/szorgalom jegyért cserébe elvállalhat
+feladatok - alapvetően üres. Diákra kiszabott büntető feladat, amit rossz magaviseletéért teljesítenie kell
+osztaly_azon - a diák osztályának az azonosítója (osztályok táblára hivatkozik)
+```
+Minden diák egy adott osztálynak a tagja. Az osztályok 1-13-ig vannak számozva, ezeken belül 3 osztály lehet: A,B és C
+ezek az *osztalyok* táblában vannak tárolva
+```
+azon - osztály azonsosítója
+osztaly_nev - osztály neve (pl 9.C)
+osztalyfonok_azon - az osztályfőnök azonosítója (tanárok táblára hivatkozik)
+diak_azon - üres, már nem használt mező, későbbi verzióban majd törlésre kerül. ne foglalkozzatok vele
+tanterem_azon - az osztály tantermének azonosítója (tanterem táblára hivatkozik)
+hetes_azon - az osztály hetesének azonosítója (hetesek táblára hivatkozik)
+```
+
+
