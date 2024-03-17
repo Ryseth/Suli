@@ -57,6 +57,16 @@ diak_azon - üres, már nem használt mező, későbbi verzióban majd törlésr
 tanterem_azon - az osztály tantermének azonosítója (tanterem tábla 'azon' oszlopára hivatkoik)
 hetes_azon - az osztály hetesének azonosítója (hetesek tábla 'azon' oszlopára hivatkoik)
 ```
+Minden osztálynak van egy tanterme, amikről a következő adatokat tároljuk a *tantermek* táblában
+```
+azon - tanterem egyedi azonosítója a táblában
+megnevezes - tanterem neve
+max_letszam - terem max létszáma
+padok_szama - padok száma
+udvarra_nez - udvarra néző ablakai vannak-e vagy sem (Bool)
+digitalis_tabla - van-e a teremben digitális tábla, vagy sem (Bool)
+osztaly_azon - osztály azonosító, használaton kívüli, de lehet lesz rá feladat
+```
 A nem megfelelő magatartást tanusító diákok részesülhetnek megrovásban. Ezeket az *intok* táblában találjuk. 
 ```
 azon - az intő azonosítója
@@ -82,5 +92,34 @@ tantargy_azon - tantárgy azonosítója (tantargyak tábla 'azon' oszlopára hiv
 erdemjegy - kapott érdemjegy
 megjegyzes - esetleges megjegyzes (alapvetően üres)
 datum - érdemjeg ybeírásának dátuma
+```
+
+A diákoknak szintén lehetőségük van az egyes tantárgyakból emeltszintű érettségi felkészítőre (csak 9. osztály felett) és szakkörökre (1. - 13. osztályig bárki) is járni.
+Azokat a tantárgyakat, amikből indult az évben emeltszintű felkészítő az *emeltfelkeszito* táblában találjuk
+```
+azon - egyedi azonosító az egyes felkészítőkhöz a táblán belül
+tantargy_azon - tantárgy azonosító (tantargyak  tábla 'azon' oszlopára hivatkoik)
+heti_oraszam - hány óra van belőle egy héten
+tanar_azon - tanár azonosítój (tanarok  tábla 'azon' oszlopára hivatkoik)
+max_letszam - max létszám.
+```
+Azt, hogy melyik diák melyik felkészítőre jár, azt az *emelt_felkeszito_resztvevok* kapcsoló tábla tárolja
+```
+azon - egyedi azonosító
+emelt_felkeszito_azon - emeltszintű felkészítő azonosítója ( emelt_felkeszito  tábla 'azon' oszlopára hivatkoik)
+diak_azon - diák azonosítója (diakok  tábla 'azon' oszlopára hivatkoik)
+```
+A szakköröket hasonló felosztásban tartjuk nyílván, csak a *szakkor* és a *szakkor_resztvevok* táblákban, melyeknek rendre ugyanez a felépítése.
+
+A legalább 14. életévüket betöltött diákoknak lehetőségük van (tanári felügyelete mellett) az egyes, iskola által rendezett rendezvényeken segíteni.
+Ezeket az adatokat *rendezveny_szervezok* táblában tároljuk
+```
+azon - rekord egyedi azonosítója a táblán belül
+rendezveny_azon - rendezvény azonosítója (rendezvenyek  tábla 'azon' oszlopára hivatkoik)
+diak_azon - diák azonosítója (diakok  tábla 'azon' oszlopára hivatkoik)
+feladat - az adott diák/tanár feladata a rendezvényen
+tanar_azon - tanár azonosítója (tanarok  tábla 'azon' oszlopára hivatkoik)
+jutalom - rendezvényen való segédkezésért járó jutalom mennyisége
+jutalom_megjegyzes - egyéb megjegyzés a jutalomhoz
 ```
 
