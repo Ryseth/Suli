@@ -73,9 +73,9 @@ megjegyzes=[
     "Világutazás",
     "Házassági költségek"
 ]
-for i in range(1,1500):
+for i in range(1,5500):
     forras=random.choice(bankszamlak)
     cel=random.choice(bankszamlak)
     
     if forras != cel:
-        print(f"insert into tranzakciok(forras_szla_szam,cel_szla_szam,megjegyzes,datum) VALUES('{forras}','{cel}','{random.choice(megjegyzes)}','{random_date(2018,2023)}');")
+        print(f"insert into tranzakciok(forras_szla_szam,cel_szla_szam,megjegyzes,datum,osszeg) VALUES('{forras}','{cel}','{random.choice(megjegyzes)}','{random_date(2018,2023)}',{random.randint(100,989643)});")
