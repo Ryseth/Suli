@@ -1,8 +1,8 @@
-drop table if exists diakok;
 Create table diakok(
 	azon int primary key not null auto_increment,
 	nev text,
-	lakcim text,
+	lakcim_varos text,
+	lakcim_utca text,
 	szul_dat date,
 	szul_hely text,
 	igazolt_hianyzasok int,
@@ -16,7 +16,8 @@ drop table if exists tanarok;
 CREATE table tanarok(
 	azon int primary key not null auto_increment,
 	nev text,
-	lakcim text,
+	lakcim_varos text,
+	lakcim_utca text,
 	szul_dat date,
 	szul_hely text,
 	fo_tantargy text,
