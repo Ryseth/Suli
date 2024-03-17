@@ -132,7 +132,7 @@ Természetesen a rendezvényeket egy külön táblában tároljuk. a *rendezveny
 azon - egyedi azonosító
 megnevezes - rendezvény neve
 datum - rendezvény időpontja
-max_letszam - max létszám
+max_letszam - maximum létszáma azoknak a vendégeknek, akik egyidőben voltak jelen a rendezvényen
 helyszin - a rendezvény helyszíne. alapvetően üres, majd feladatok által kapnak értéket
 terem_azon - terem azonosítója, ahova a rendezvény eredetileg tervezték (A tantermek  tábla 'azon' oszlopára hivatkoik)
 ```
