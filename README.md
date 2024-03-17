@@ -30,4 +30,4 @@ Ha bármi hibába ütköztök, nyugodtan nyissatok egy "issue"-t itt githubon é
 ##### Adatbázis Felépítése
 Itt átvesszük, milyen táblák, mezők és adattípusokat tartalmaz az adatbázis és annak felépítését.
 
-Iskola lévén, a középpontban a Diákok vannak
+Iskola lévén, a középpontban a *Diákok* vannak
