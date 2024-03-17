@@ -182,5 +182,6 @@ create table tranzakciok(
 	forras_szla_szam varchar(20),
 	cel_szla_szam varchar(20),
 	megjegyzes text,
-	datum date
+	datum date,
+	osszeg int
 );
