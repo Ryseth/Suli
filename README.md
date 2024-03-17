@@ -3,13 +3,13 @@ Az itt felhasznált nevek,címek,bankszámla számok mind FIKTÍV ADATOK amiket 
 
 Az ehhez használt dataset és scriptek a DEV mappában elérhetőek, reprodukálhatóak.
 
-Ez az adatbázis kizárólag fiktív és szórakoztató célból lett létrehozva. Az itt található adatok teljes egészében véletlenszerűen generáltak, és semmilyen valóságalapja vagy összefüggése nincs a valóságban előforduló eseményekkel vagy személyekkel.
+Ez az adatbázis kizárólag fiktív és "szórakoztató" célból lett létrehozva. Az itt található adatok teljes egészében véletlenszerűen generáltak, és semmilyen valóságalapja vagy összefüggése nincs a valóságban előforduló eseményekkel vagy személyekkel.
 
-Bár mindent megtettünk annak érdekében, hogy az adatok hitelesek és pontosak legyenek, nincs garancia arra, hogy azok valóságot tükröznek. Minden információ a képzelet szüleménye, és semmilyen körülmények között nem tekinthető hiteles forrásnak.
+Bár mindent megtettünk annak érdekében, hogy az adatok hitelesek és pontosak legyenek, nincs garancia arra, hogy azok tükrözik a valóságot . Minden információ a képzelet szüleménye, és semmilyen körülmények között nem tekinthető hiteles forrásnak.
 
 Az adatbázisban található információk semmilyen formában nem szolgálnak jogi, pénzügyi vagy egyéb tanácsadásként. Semmilyen felelősséget nem vállalunk az adatok használatából vagy értelmezéséből eredő esetleges károkért vagy veszteségekért.
 
-Felhívjuk figyelmüket, hogy minden felhasználónak saját felelősséggel kell eldöntenie az adatokkal való bánásmódját, és fenntartjuk a jogot arra, hogy bármikor módosítsuk vagy töröljük az adatokat anélkül, hogy erről előzetesen értesítenénk.
+Felhívjuk figyelmüket, hogy minden felhasználónak a saját felelőssége, hogy az adatokkal miként bánik, és fenntartjuk a jogot arra, hogy bármikor módosítsuk vagy töröljük az adatokat anélkül, hogy erről előzetesen értesítenénk.
 
 Kérjük, vegyék figyelembe ezt a felhívást az adatok böngészése és felhasználása során.
 
@@ -19,11 +19,16 @@ Ez egy gyakorló adatbázis, ami egy nem létező iskola (*ILYEN NINCS, ÁLTALÁ
 A szintaxis MySQL/MariaDB-hez lett alakítva. Nem kizárt, hogy más adatbázisokkal (pl Postgres/MSSQL/Oracle/stb...) is működik, de ha nem, akkor nyílván át kell írni szintaxis helyesre.
 Ha bármi hibába ütköztök, nyugodtan nyissatok egy "issue"-t itt githubon és ahogy időm engedi, ránézek (Ne várjatok túl gyors reakciót pls)
 
+#### Miért is született meg ez a DB?
+Egyszerű: 
+ 1. Azért, hogy emelt infó érettségizők tudjanak gyakorolni (ha már unalmas a korábbi évek érettségije)
+ 2. Ha szeretnéd kipróbálni, milyen egy picit nagyobb adatbázison dolgozni
+ 3. Ha csak felfrissítenéd a tudásod és a "Northwind" már kicsi :D 
 
 ##### TELEPÍTÉS
 1. Töltsétek le az *SQL* mappa tartalmát (vag yegyesével másoljátok ki őket majd)
 2. Nyissátok meg a kedvenc SQL klienseteket
-3. Számozás sorrendjének megfelelően kezdjétek el beimportálni/bemásolni és megfuttatni.
+3. Számozás sorrendjének megfelelően kezdjétek el beimportálni/bemásolni és megfuttatni az SQL mappában lévő *.sql* scripteket.
      Számozás 00-tól kezdődik, így mindenképpen a *01_adatbazis_letrehozas.sql* legyen az első, a *21_idegen_kulcsok.sql* pedig az utolsó amit megfuttattok.
 4. Ha végig értek mind a 21 db sql scripten, akkor előáll a gyakorló adatbázisotok.
 
