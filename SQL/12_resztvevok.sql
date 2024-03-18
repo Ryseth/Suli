@@ -1,3 +1,4 @@
+use suli;
 insert into emelt_felkeszito_resztvevok(emelt_felkeszito_azon,diak_azon) values(2,911);
 insert into emelt_felkeszito_resztvevok(emelt_felkeszito_azon,diak_azon) values(8,952);
 insert into emelt_felkeszito_resztvevok(emelt_felkeszito_azon,diak_azon) values(3,891);
