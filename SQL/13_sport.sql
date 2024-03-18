@@ -1,3 +1,4 @@
+use suli;
 insert into sport(megnevezes) values('falmászás');
 insert into sport(megnevezes) values('ligarögbi');
 insert into sport(megnevezes) values('búvárkodás');
