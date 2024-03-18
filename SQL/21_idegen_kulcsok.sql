@@ -1,3 +1,4 @@
+use suli;
 SET FOREIGN_KEY_CHECKS=0;
 ALTER table tantargyak ADD FOREIGN KEY (szakkor_azon) REFERENCES szakkor(azon);
 ALTER table tantargyak ADD FOREIGN KEY (tanterem_azon) REFERENCES tantermek(azon);
