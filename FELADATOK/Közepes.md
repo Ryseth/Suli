@@ -3,7 +3,7 @@ Megoldásukhoz szükséges ismeret:
 - minden ami bevezetőben +
 - JOIN (LEFT,INNER,RIGHT,NATURAL)
 - NESTED SELECT/SUBSELECT
-- CONCAT, IF, GROUP BY, HAVING, CASE
+- CONCAT, IF, CASE
 
 1. Készíts egy osztálynévsort a "11.B" osztálynak. A névsor legyen ABC szerint növekvő módon rendezve.
 2. Készíts lekérdezést ami vissza adja azoknak a diákokak a nevét, lakcímét és osztályát és az intő típusát és szövegezését, akik eddig intőt kaptak.
@@ -21,10 +21,4 @@ Megoldásukhoz szükséges ismeret:
 14. Melyik tanárnak a számlájára érkezett a legtöbb utalás? Kérdezd le a tanár nevét, bankszámla számát, a banknál vezetett értesítési címét és a legnagyobb összegű jóváírását (egy kis help: jóváírás = számlára beérkező pénz. tehát azok az utalások kellenek majd, ahol a *cel_szla_szam* az a tanár bank szla.száma)
 15. Volt-e dobogós versenyzője az iskolának bármely versenyen? Amennyiben igen, úgy a lekérdezés adja vissza a diák nevét, kisérő tanár nevét, a verseny időpontját és egy negyedik oszlopban a szerzett érem nevét (Arany, ha helyezése 1, Ezüst, ha 2 és Bronz, ha 3)
 16. Lekérdezés segítségével állapítsd meg azoknak a diákoknak a nevét, osztályát és hiányzásainak számát akiknek a legtöbb igazolt hiányzásai vannak.
-17. Milyen feladatai voltak azoknak a tanároknak, akik legalább 2 rendezvény lebonyolításán vettek részt? *
-18. Mekkora a maximum létszám azon az emeltszintű felkészítőn, amire a legtöbben járnak? *
-19. hány érdemjegyet szereztek az egyes diákok a különböző tantárgyakból?
-20. Írj lekérdezést amivel megállapíthatjuk a diákok átlagát az egyes tantárgyakból.Lekérdezés eredménye tartalmazza a Diák nevét, tantárgy nevét és átlagát.
-21. Hány érdemjegyet kaptak eddig a diákok az egyes tantárgyakból? az előző kérdéshez hasonlóan, csak a diák és tantárgy nevét illetve a szerzett érdemjegyek számát jelenítsük meg.
-22. Készíts osztályátlagot az egyes tantárgyakból. A lekérdezés eredményeként egy olyan lista jöjjön létre, ahol csak az osztályok nevei, tantárgy neve és, majd az osztályátlag jelenik meg.
-23. FOLYT KÖV.
+17. FOLYT KÖV.
