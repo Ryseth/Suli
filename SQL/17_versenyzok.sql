@@ -1,3 +1,4 @@
+use suli;
 insert into versenyzok(diak_azon,verseny_azon,helyezes) VALUES(865,1,29);
 insert into versenyzok(diak_azon,verseny_azon,helyezes) VALUES(878,9,20);
 insert into versenyzok(diak_azon,verseny_azon,helyezes) VALUES(592,5,3);
