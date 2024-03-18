@@ -1,3 +1,4 @@
+use suli;
 insert into tantargyak(megnevezes) values ('Biológia-egészségtan');
 insert into tantargyak(megnevezes) values ('Dráma és tánc');
 insert into tantargyak(megnevezes) values ('Ének-zene');
