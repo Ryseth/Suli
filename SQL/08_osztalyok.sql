@@ -1,3 +1,4 @@
+use suli;
 insert into osztalyok(osztaly_nev,osztalyfonok_azon) values('1.A osztály',82);
 insert into osztalyok(osztaly_nev,osztalyfonok_azon) values('1.B osztály',98);
 insert into osztalyok(osztaly_nev,osztalyfonok_azon) values('1.C osztály',80);
