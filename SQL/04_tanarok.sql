@@ -1,3 +1,4 @@
+use suli;
 insert into tanarok (nev,lakcim_varos,lakcim_utca,szul_dat,szul_hely,fo_tantargy,mellek_tantargy,bank_szamla_szam,heti_oraszam) values ('Bárdos Áchim','Halásztelek','Csengery utca 73','1970-03-09','Nagykáta','Mozgóképkultúra és médiaismeret','Környezetismeret','2270-2440-6178-7235',26);
 insert into tanarok (nev,lakcim_varos,lakcim_utca,szul_dat,szul_hely,fo_tantargy,mellek_tantargy,bank_szamla_szam,heti_oraszam) values ('Horti Mercédesz','Nagykáta','Tivadar utca 76','1967-01-16','Szentendre Város Egészségügyi Intézményei','Történelem','Társadalmi','',29);
 insert into tanarok (nev,lakcim_varos,lakcim_utca,szul_dat,szul_hely,fo_tantargy,mellek_tantargy,bank_szamla_szam,heti_oraszam) values ('Törőcsik Lantos','Dunavarsány','Kéthly Anna tér 62','1962-07-05','Budapest','Társadalmi','Fizika','',24);
