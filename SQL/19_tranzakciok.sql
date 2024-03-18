@@ -1,3 +1,4 @@
+use suli;
 insert into tranzakciok(forras_szla_szam,cel_szla_szam,megjegyzes,datum,osszeg) VALUES('1646-2977-0698-1304','5523-0196-3980-3600','Kertészeti eszközök','2020-04-07',410579);
 insert into tranzakciok(forras_szla_szam,cel_szla_szam,megjegyzes,datum,osszeg) VALUES('1928-4778-9597-1256','0557-8496-3625-5672','Könyvtári késedelmi díj','2020-01-21',580267);
 insert into tranzakciok(forras_szla_szam,cel_szla_szam,megjegyzes,datum,osszeg) VALUES('9668-2327-1831-7217','0165-7087-9493-8897','Online vásárlás','2021-05-14',972241);
