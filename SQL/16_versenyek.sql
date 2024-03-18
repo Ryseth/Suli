@@ -1,4 +1,4 @@
-
+use suli;
 INSERT INTO suli.versenyek (datum,megnevezes,sport_azon) VALUES
 	 ('2021-08-24','Negyedik Megyei Verseny',29),
 	 ('2024-06-06','Negyedik Országos Verseny',16),
