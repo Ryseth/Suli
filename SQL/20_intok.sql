@@ -1,3 +1,4 @@
+use suli;
 insert into intok(diak_azon,datum,into_tipusa,into_szoveg) values(607,'2023-07-19','Igazgatói','A gyerek ellenőrző könyve negyedik éve nincs aláírva. Kedves Szülő; nem tud írni?');
 insert into intok(diak_azon,datum,into_tipusa,into_szoveg) values(526,'2023-05-27','Igazgatói','T. Szülő! Leánya irodalomórán vihogott. ');
 insert into intok(diak_azon,datum,into_tipusa,into_szoveg) values(985,'2023-02-05','Osztályfőnöki','Figyelmeztetés után is rágja a földgömböt a gyerek. Újból figyelmeztetem.');
