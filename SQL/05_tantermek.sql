@@ -1,3 +1,4 @@
+use suli;
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('0.A osztály tanterme',29,16);
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('0.B osztály tanterme',29,16);
 insert into tantermek (megnevezes,max_letszam,padok_szama) values ('0.C osztály tanterme',30,16);
