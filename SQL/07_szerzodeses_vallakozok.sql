@@ -1,3 +1,4 @@
+use suli;
 insert into szerzodeses_alkalmazottak(nev,lakcim,bankszamla_szam,fo_feladat,mellek_feladat,brutto_ber) values ('Ligeti Soma','Pomáz, Jókai utca 29','3582-8664-1530-8354','Anyagmozgató építőgépész-technikus','Hűtő és klíma technikus',516356);
 insert into szerzodeses_alkalmazottak(nev,lakcim,bankszamla_szam,fo_feladat,mellek_feladat,brutto_ber) values ('Ajtai Adelin','Dunavarsány, Kerepesi út 31','6484-6089-7070-7449','Kultúrházi gondnok','Tervezési technikus',424096);
 insert into szerzodeses_alkalmazottak(nev,lakcim,bankszamla_szam,fo_feladat,mellek_feladat,brutto_ber) values ('Ungvári Csuda','Pécel, M3-as autópálya 2','4242-1767-8298-4812','Díszítő kőműves','Épület-',317120);
