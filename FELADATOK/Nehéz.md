@@ -1,5 +1,10 @@
-####
-
+### NEHÉZ FELADATOK
+Megoldásukhoz szükséges ismeret:
+- minden ami a korábbiakban +
+- GROUP BY, HAVING
+- INSERT, UPDATE, DELETE
+- CTE (Common Table Expression) - Nem bonyi, de egyáltalán nem elvárás az érettségin. A végére rakok pár ilyet is, ha valaki érzi magában az erőt és készülne kicsit egyetemi adatbé-re :) 
+  
 1. Milyen feladatai voltak azoknak a tanároknak, akik legalább 2 rendezvény lebonyolításán vettek részt? *
 2. Mekkora a maximum létszám azon az emeltszintű felkészítőn, amire a legtöbben járnak? *
 3. hány érdemjegyet szereztek az egyes diákok a különböző tantárgyakból?
