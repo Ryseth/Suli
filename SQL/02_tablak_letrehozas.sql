@@ -1,3 +1,5 @@
+use suli;
+drop table if exists diakok;
 Create table diakok(
 	azon int primary key not null auto_increment,
 	nev text,
