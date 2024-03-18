@@ -1,3 +1,4 @@
+use suli;
 insert into rendezveny_szervezok(rendezveny_azon,diak_azon,feladat,jutalom) values (22,993,'Büfépult vagy étterem üzemeltetése és kezelése.',True);
 insert into rendezveny_szervezok(rendezveny_azon,diak_azon,feladat,jutalom) values (4,854,'Hangosítás és technikai támogatás biztosítása az előadásokhoz és műsorokhoz.',True);
 insert into rendezveny_szervezok(rendezveny_azon,diak_azon,feladat,jutalom) values (1,1045,'Programfüzetek vagy információs anyagok készítése és terjesztése.',False);
