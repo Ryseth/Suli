@@ -1,3 +1,4 @@
+use suli;
 insert into szakkor(nev,max_letszam,tanar_azon,heti_oraszam) values('Angol',8,69,5);
 insert into szakkor(nev,max_letszam,tanar_azon,heti_oraszam) values('Német',19,71,8);
 insert into szakkor(nev,max_letszam,tanar_azon,heti_oraszam) values('Spanyol',18,99,3);
