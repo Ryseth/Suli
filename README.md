@@ -30,9 +30,13 @@ Egyszerű:
 2. Nyissátok meg a kedvenc SQL klienseteket
 3. Számozás sorrendjének megfelelően kezdjétek el beimportálni/bemásolni és megfuttatni az SQL mappában lévő *.sql* scripteket.
      Számozás 00-tól kezdődik, így mindenképpen a *01_adatbazis_letrehozas.sql* legyen az első, a *21_idegen_kulcsok.sql* pedig az utolsó amit megfuttattok.
-   !!!FONTOS!!!
-   !!! Az idegenkulcsos sql-t előfordulhat, hogy sorról sorra kell megfuttatnotok (ha mindenféle hiba miatt nem akar lefutni egyben). van olyan db kliens ami nem szereti ezt a mennyiségű "alter table" utasítást
-   !!!FONTOS!!!
+   ```
+   !!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!
+   !!! Az idegenkulcsos sql-t előfordulhat, hogy sorról sorra kell megfuttatnod
+   !!! (ha mindenféle hiba miatt nem akar lefutni egyben). van olyan db kliens ami
+   !!! nem szereti ezt a mennyiségű "alter table" utasítást
+   !!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!!!!FONTOS!!!
+   ```
 5. Ha végig értek mind a 21 db sql scripten, akkor előáll a gyakorló adatbázisotok.
 
 ##### FELADATOK
