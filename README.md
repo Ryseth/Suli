@@ -26,11 +26,18 @@ Egyszerű:
  3. Ha csak felfrissítenéd a tudásod és a "Northwind" már kicsi :D 
 
 ##### TELEPÍTÉS
-1. Töltsétek le az *SQL* mappa tartalmát (vag yegyesével másoljátok ki őket majd)
+1. Töltsétek le az *SQL* mappa tartalmát (vagy egyesével másoljátok ki őket majd)
 2. Nyissátok meg a kedvenc SQL klienseteket
 3. Számozás sorrendjének megfelelően kezdjétek el beimportálni/bemásolni és megfuttatni az SQL mappában lévő *.sql* scripteket.
      Számozás 00-tól kezdődik, így mindenképpen a *01_adatbazis_letrehozas.sql* legyen az első, a *21_idegen_kulcsok.sql* pedig az utolsó amit megfuttattok.
 4. Ha végig értek mind a 21 db sql scripten, akkor előáll a gyakorló adatbázisotok.
+
+##### FELADATOK
+A feladatok mappában vannak. 4 kategória van
+ - Bevezető - annyiról szól, hogy ismerd meg az adatbázis sémáját. Azért fontos, hogy nagyjából képben legyél vele, mert ezzel spórolhatsz meg magadnak egy tonna időt (főleg érettségin)
+ - Könnyű - sima, egyszeri (tehát nem beágyazott) SELECT lekérdezésekkel és néhány alap szűréssel megoldhatók. Szükséges még pár alap aggregáló függvény ismerete (pl MIN, MAX, AVG)
+ - Közepes - Minden ami a könnyűben van + JOINOK (LEFT,RIGHT,INNER,NATURAL), SUBQUERY (allekérdezés),
+ - Nehéz - GROUP BY, HAVING, INSERT, UPDATE, DELETE (azért kerültek a nehéz kategóriába, mert érettségin csekély mértékben fordulnak elő + ezeknek a feladatoknak a nagy részéhez figyelembe kell venni az idegen kulcsokat)
 
 ##### Adatbázis Felépítése
 Itt átvesszük, milyen táblák, mezők és adattípusokat tartalmaz az adatbázis és annak felépítését.
