@@ -1,3 +1,4 @@
+use suli;
 -- 1. osztályosok
 insert into diakok (nev,lakcim_varos,lakcim_utca,szul_dat,szul_hely,igazolt_hianyzasok,igazolatlan_hianyzasok,osztaly_azon) values ('Baksa Gizi','Maglód',' Kossuth Lajos utca 81','2018-09-20','Szentendre Város Egészségügyi Intézményei',8,7,2);
 insert into diakok (nev,lakcim_varos,lakcim_utca,szul_dat,szul_hely,igazolt_hianyzasok,igazolatlan_hianyzasok,osztaly_azon) values ('Pártos Nikolasz','Pilisvörösvár',' Hamzsabégi út 99','2018-02-24','Érd Megyei Jogú Város Szakorvosi Rendelőintézete',12,2,1);
