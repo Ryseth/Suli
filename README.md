@@ -34,8 +34,8 @@ Egyszerű:
 
 ##### FELADATOK
 A feladatok mappában vannak. 4 kategória van
- - Bevezető - annyiról szól, hogy ismerd meg az adatbázis sémáját. Azért fontos, hogy nagyjából képben legyél vele, mert ezzel spórolhatsz meg magadnak egy tonna időt (főleg érettségin)
- - Könnyű - sima, egyszeri (tehát nem beágyazott) SELECT lekérdezésekkel és néhány alap szűréssel megoldhatók. Szükséges még pár alap aggregáló függvény ismerete (pl MIN, MAX, AVG)
+ - Bevezető - annyiról szól, hogy ismerd meg az adatbázis sémáját. Azért fontos, hogy nagyjából képben legyél vele, mert ezzel spórolhatsz meg magadnak egy tonna időt (főleg érettségin). A hangsúly azon van, hogy nagyjából képben legyél azzal, hogy az adatbázisban mikről milyen adatokat tárolunk (pl Diákokról tároljuk a nevüket,lakcímüket,stb... és ezeket mind a *diakok* táblában). Ezáltal kevesebbet kell majd feladat megoldása közben a db EK diagramját (Egyed-Kapcsolat Modell -> ahol "össze vannak kötögetve a táblák") böngészni, azt keresve, hogy melyik táblából is kéne kihalászni melyik adatot
+ - Könnyű - sima, egyszeri (tehát nem beágyazott) SELECT lekérdezésekkel és néhány alap szűréssel megoldhatók. Szükséges még pár alap aggregáló (csoportosító) függvény ismerete (pl MIN, MAX, AVG)
  - Közepes - Minden ami a könnyűben van + JOINOK (LEFT,RIGHT,INNER,NATURAL), SUBQUERY (allekérdezés),
  - Nehéz - GROUP BY, HAVING, INSERT, UPDATE, DELETE (azért kerültek a nehéz kategóriába, mert érettségin csekély mértékben fordulnak elő + ezeknek a feladatoknak a nagy részéhez figyelembe kell venni az idegen kulcsokat)
 
