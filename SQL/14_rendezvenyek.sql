@@ -1,3 +1,4 @@
+use suli;
 insert into rendezvenyek(megnevezes,datum,max_letszam,tanterem_azon) VALUES('Tehetségnap a diákok kreatív bemutatkozására.','2023-10-30',1524,21);
 insert into rendezvenyek(megnevezes,datum,max_letszam,tanterem_azon) VALUES('Könyvklub vagy olvasókör rendezvénye.','2024-01-24',1526,42);
 insert into rendezvenyek(megnevezes,datum,max_letszam,tanterem_azon) VALUES('Matematika- vagy tudományos verseny diákok között.','2024-12-25',1946,17);
