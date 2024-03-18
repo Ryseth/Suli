@@ -128,9 +128,9 @@ Ezeket az adatokat *rendezveny_szervezok* táblában tároljuk
 ```
 azon - rekord egyedi azonosítója a táblán belül
 rendezveny_azon - rendezvény azonosítója (rendezvenyek  tábla 'azon' oszlopára hivatkoik)
-diak_azon - diák azonosítója (diakok  tábla 'azon' oszlopára hivatkoik)
+diak_azon - diák azonosítója (diakok  tábla 'azon' oszlopára hivatkoik) (Csak akkor szerepel benne érték, ha az adott rekord egy diákra utal)
 feladat - az adott diák/tanár feladata a rendezvényen
-tanar_azon - tanár azonosítója (tanarok  tábla 'azon' oszlopára hivatkoik)
+tanar_azon - tanár azonosítója (tanarok  tábla 'azon' oszlopára hivatkoik) (Csak akkor szerepel benne érték, ha az adott rekord egy tanárra utal)
 jutalom - rendezvényen való segédkezésért jár-e jutalom (Bool)
 jutalom_megjegyzes - egyéb megjegyzés a jutalomhoz
 ```
