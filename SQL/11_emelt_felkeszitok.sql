@@ -1,3 +1,4 @@
+use suli;
 insert into emelt_felkeszito(tantargy_azon,heti_oraszam,tanar_azon,max_letszam) values(1,1,86,20);
 insert into emelt_felkeszito(tantargy_azon,heti_oraszam,tanar_azon,max_letszam) values(26,1,102,14);
 insert into emelt_felkeszito(tantargy_azon,heti_oraszam,tanar_azon,max_letszam) values(10,10,87,13);
