@@ -1,3 +1,4 @@
+use suli;
 INSERT INTO suli.bank (ugyfel_szamlaszam,ugyfel_nev,ugyfel_lakcim,ugyfel_levelezesi_cim,fedezet,hitel_osszege,hitel_torleszto,premium) VALUES
 	 ('0005-0893-6536-7612','Kalocsai Márió','Gödöllő, Liszt Ferenc tér 32','Gödöllő, Liszt Ferenc tér 32',3061388,NULL,NULL,NULL),
 	 ('0165-7087-9493-8897','Teleki Valentin','Albertirsa, Kossuth utca 54','Albertirsa, Kossuth utca 54',961245,NULL,NULL,NULL),
