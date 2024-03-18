@@ -1,3 +1,4 @@
+use suli;
 insert into osztalyzatok(diak_azon,tantargy_azon,erdemjegy,datum) values(1,22,1,'2023-03-20');
 insert into osztalyzatok(diak_azon,tantargy_azon,erdemjegy,datum) values(1,13,2,'2024-07-18');
 insert into osztalyzatok(diak_azon,tantargy_azon,erdemjegy,datum) values(1,18,2,'2023-12-03');
