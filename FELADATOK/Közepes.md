@@ -3,7 +3,7 @@ Megoldásukhoz szükséges ismeret:
 - minden ami bevezetőben +
 - JOIN (LEFT,INNER,RIGHT,NATURAL)
 - NESTED SELECT/SUBSELECT
-- CONCAT, IF, CASE
+- CONCAT, IF, CASE és néhány könnyebb GROUP BY
 
 1. Készíts egy osztálynévsort a "11.B" osztálynak. A névsor legyen ABC szerint növekvő módon rendezve.
 2. Készíts lekérdezést ami vissza adja azoknak a diákokak a nevét, lakcímét és osztályát és az intő típusát és szövegezését, akik eddig intőt kaptak.
@@ -21,4 +21,6 @@ Megoldásukhoz szükséges ismeret:
 14. Melyik tanárnak a számlájára érkezett a legtöbb utalás? Kérdezd le a tanár nevét, bankszámla számát, a banknál vezetett értesítési címét és a legnagyobb összegű jóváírását (egy kis help: jóváírás = számlára beérkező pénz. tehát azok az utalások kellenek majd, ahol a *cel_szla_szam* az a tanár bank szla.száma)
 15. Volt-e dobogós versenyzője az iskolának bármely versenyen? Amennyiben igen, úgy a lekérdezés adja vissza a diák nevét, kisérő tanár nevét, a verseny időpontját és egy negyedik oszlopban a szerzett érem nevét (Arany, ha helyezése 1, Ezüst, ha 2 és Bronz, ha 3)
 16. Lekérdezés segítségével állapítsd meg azoknak a diákoknak a nevét, osztályát és hiányzásainak számát akiknek a legtöbb igazolt hiányzásai vannak.
-17. FOLYT KÖV.
+17. Írj lekérdezést, ami vissza adja azoknak a diákoknak a nevét, osztályát akiknek 4-nél kevesebb érdemjegyük van.
+18. Készíts lekérdezést ami megmutatja, hogy melyik diáknak milyen átlaga van matekból. A lekérdezés adja vissza a diák nevét, az átlagot és egy kalkulált oszlopban írd ki, hogy "Bukásra áll", ha az átlaga kettesnél kisebb, egyéb esetben a "Megfelelt" szó szerepeljen itt.
+19. 
