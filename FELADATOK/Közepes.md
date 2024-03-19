@@ -38,5 +38,6 @@ Megoldásukhoz szükséges ismeret:
 30. Melyik szerződéses vállalkozó számlájára érkezett eddig a legnagyobb összegű jóváírás? Kinek a számlájáról érkezett és milyen utalási megjegyzéssel, illetve keltezéssel? Az eredmény tartalmazza az összeget (mint "ÖSSZEG"), a folyósító nevét (mint "KEZDEMÉNYEZŐ") , az utalás közleményét, dátumát és a vállalkozó nevét (Mint "VÁLLALKOZÓ")
 31. Kik azok a tanárok/szerződéses alkalmazottak, akiknek van bankszámlája, de nem szerepelnek a bankban ügyfélként? Írj lekérdezést ami vissza adja a nevüket és számlaszámukat
 32. Az összes osztályt nézve, mi az átlaguk a diákoknak abból a tantárgyból, ami a szakkört, érettségi felkészítőt vagy rendezvény szervezésben résztvevő tanároknak az elsődleges tantárgya?
-33. Tovább dondolva az előző kérdést, az előző kérdésben szereplő tanárok által tanított elsődleges tantárgyból mi az osztályátlaga a "8.C" osztálynak? A lekérdezés adja vissza a tanár nevét, az általa tanított főtantárgy megnevezését, osztályátlagot, mint 'ÁTLAG'
+33. Tovább gondolva, az előző kérdésben szereplő tanárok által tanított elsődleges tantárgyból mi az osztályátlaga a "8.C" osztálynak? A lekérdezés adja vissza a tanár nevét, az általa tanított főtantárgy megnevezését, osztályátlagot, mint 'ÁTLAG'.
+34. Mennyi diák van az egyes osztályokban?
 
