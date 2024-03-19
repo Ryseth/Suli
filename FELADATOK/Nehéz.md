@@ -5,6 +5,9 @@ Megoldásukhoz szükséges ismeret:
 - INSERT, UPDATE, DELETE
 - CTE (Common Table Expression) - Nem bonyi, de egyáltalán nem elvárás az érettségin. A végére rakok pár ilyet is, ha valaki érzi magában az erőt és készülne kicsit egyetemi adatbé-re :)
 - FONTOS TUDNI: A bruttó bérből úgy lesz nettó, hogy levonjuk belőle a 33,5%-át (ez az adó). Tehát, ha az iskola elutalja egy tanár bruttó bérét, ami pl 100.000 Ft, akkor abből 66.500 Ft érkezik meg a tanár számlájára, 33.500 Ft pedig megy az államnak adó (SZJA + Társadalom Biztosítás és Nyugdíjjárulék) gyanánt.
+- Ha szereted a képleteket, itt egy egyszerű hozzá:
+  - NETTÓ = BRUTTÓ * 0.665
+  - ADÓ = BRUTTÓ * 0.335
   
 1. Milyen feladatai voltak azoknak a tanároknak, akik legalább 2 rendezvény lebonyolításán vettek részt? 
 2. Mekkora a maximum létszám azon az emeltszintű felkészítőn, amire a legtöbben járnak? 
