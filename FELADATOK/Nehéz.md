@@ -11,3 +11,4 @@ Megoldásukhoz szükséges ismeret:
 4. Írj lekérdezést amivel megállapíthatjuk a diákok átlagát az egyes tantárgyakból.Lekérdezés eredménye tartalmazza a Diák nevét, tantárgy nevét és átlagát.
 5. Hány érdemjegyet kaptak eddig a diákok az egyes tantárgyakból? az előző kérdéshez hasonlóan, csak a diák és tantárgy nevét illetve a szerzett érdemjegyek számát jelenítsük meg.
 6. Készíts osztályátlagot az egyes tantárgyakból. A lekérdezés eredményeként egy olyan lista jöjjön létre, ahol csak az osztályok nevei, tantárgy neve és, majd az osztályátlag jelenik meg.
+7. Készíts átlagot a különböző tantárgyra nézve iskola szinten. Ezután minden osztályból írd ki azoknak a diákoknak a nevét, lakcímét, születési dátumát és osztályfőnökük nevét, akik meghaladják ezt az átlagot.
