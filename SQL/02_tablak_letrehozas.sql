@@ -173,7 +173,7 @@ create table bank(
 	ugyfel_nev text,
 	ugyfel_lakcim text,
 	ugyfel_levelezesi_cim text,
-	fedezet int,
+	fedezet bigint,
 	hitel_osszege int,
 	hitel_torleszto int,
 	premium bool
