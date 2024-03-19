@@ -35,7 +35,7 @@ Megoldásukhoz szükséges ismeret:
     Ügyfél levelezési cím: 1054 Budapest, Széchenyi u. 666
     Fedezet: 1999999999
     ```
-12. 'Egresi Nikodémusz' nem a technika fenegyereke. Ez abból is látszik, hogy mikor rábízták, a diákoknak az érdemjegyeit rögzítse a digitális naplóban (amit jelen esetben az *osztalyzatok* tábla képvisel, találomra kiválasztott diákoknak adta a rögzítendő jegyeket. Így előfordulhat, hogy az 1-4. osztályos diákok olyan tantárgyból is kaptak érdemjegyet, amit még nem is tanulnak. Lekérdezés segítségével korrigáld ezt és törölj minden olyan jegyet az alsósoknál, amik nem az alábbi tantárgyak közé tartozik:
+12. 'Egresi Nikodémusz' nem a technika fenegyereke. Ez abból is látszik, hogy mikor rábízták, a diákoknak az érdemjegyeit rögzítse a digitális naplóban (amit jelen esetben az *osztalyzatok* tábla képvisel), találomra kiválasztott diákoknak adta a rögzítendő jegyeket. Így előfordulhat, hogy az 1-4. osztályos diákok olyan tantárgyból is kaptak érdemjegyet, amit még nem is tanulnak. Lekérdezés segítségével korrigáld ezt és törölj minden olyan jegyet az alsósoknál, amik nem az alábbi tantárgyak közé tartozik:
     ```
     Magyar nyelv és irodalom
     Kommunikáció magyar nyelv és irodalom
@@ -51,8 +51,8 @@ Megoldásukhoz szükséges ismeret:
     ```
 13. 'Egresi Nikodémusz', mikor szembesítették a hibájával, dühében csapkodni, hisztizni és lökdösődni kezdett. Magtartása mind vállalhatatlan és egyáltalán nem illő az intézmény dolgozóihoz ezért elbocsájtották. Az elbocsájtásához az alábbi lépéseken kell végig haladni:
     ```
-    1. Ha tart valamilyen szakkört, akkor ezeket előszr helyettesísd egy másik tanárral, aki még nem tart szakkört
-    2. Ha tart valamilyen emeltszintű felkészítőt, akkor előszr helyettesísd egy másik tanárral, aki még nem tart emelt felkészítőt
+    1. Ha tart valamilyen szakkört, akkor ezeket először helyettesítsd egy másik tanárral, aki még nem tart szakkört
+    2. Ha tart valamilyen emeltszintű felkészítőt, akkor előszr helyettesítsd egy másik tanárral, aki még nem tart emelt felkészítőt
     3. Ha a tanár osztályfőnöke egy osztálynak, előbb másik tanárral kell helyettesíteni akinek még nincsen másik osztálya (tehát nem osztályfőnök)
     4. Ha ezek megvoltak, akkor lehet törölni a *tanarok* táblából Nikodémusz rekordját
     ``` 
