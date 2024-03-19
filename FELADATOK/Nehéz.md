@@ -19,12 +19,12 @@ Megoldásukhoz szükséges ismeret:
 11. Készíts átlagot a különböző tantárgyra nézve iskola szinten. Ezután minden osztályból írd ki azoknak a diákoknak a nevét, lakcímét, születési dátumát és osztályfőnökük nevét, akik meghaladják ezt az átlagot.
 12. Lekérdezés segítségével frissítsük a *diakok* tábla 'intok_szama' oszlopot az *intok* tábla alapján. Más szóval: számoljuk össze, melyik diáknak hány darab beírása van
 13. Az intézmény nem szerepel a banki ügyfelek között. Rögzísd az iskolát, mint banki ügyfelet az alábbi adatokkal
-   ```
-   ügyfél név: ILYEN NINCS, ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM
-   Ügyfél lakcím:
-   Ügyfél levelezési cím: Budapest XIII. Kerület Váci út 777
-   Fedezet: 672954601
-   ```
+     ```
+     ügyfél név: ILYEN NINCS, ÁLTALÁNOS ISKOLA ÉS GIMNÁZIUM
+     Ügyfél lakcím:
+     Ügyfél levelezési cím: Budapest XIII. Kerület Váci út 777
+     Fedezet: 672954601
+     ```
 11. A nemzeti Adó és Vámhivatal is nyitott egy számlát a banknál. Vedd fel őket is új ügyfélnek az alábbi adatokkal:
     ```
     ügyfél név: Nemzeti Adó- És Vámhivatal
