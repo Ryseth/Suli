@@ -34,4 +34,7 @@ Megoldásukhoz szükséges ismeret:
 26. Írj lekérdezést, ami összegyűjti, hogy azok a diákok, akik már kaptak beírást, milyen szakkörre és/vagy emeltszintű felkészítőre járnak. A lekérdezés eredményében csak a diák neve, osztályának neve, szakkörének tantárgya, emelt felkészítőjének tantárgya és kalkulált oszlopban jelenjen meg a beírás dátuma és szövege, vesszővel elválasztva (pl: "2021-01-03, T. Szülők, Gyermekük fejjel előre kiugrott az ablakon")
 27. Lekérdezéssel állapítsd meg, hogy mennyi az osztályátlaga "Informatika" tantárgyból azoknak az osztályoknak, ahonnan legalább egy diák jár valamilyen felkészítőre. Lekérdezés eredménye csak az osztály nevét és az osztály átlagát adja vissza.
 28. Melyik szerződéses vállalkozó számlájára érkezett eddig a legnagyobb összegű jóváírás? Kinek a számlájáról érkezett és milyen utalási megjegyzéssel, illetve keltezéssel? Az eredmény tartalmazza az összeget (mint "ÖSSZEG"), a folyósító nevét (mint "KEZDEMÉNYEZŐ") , az utalás közleményét, dátumát és a vállalkozó nevét (Mint "VÁLLALKOZÓ")
-29. 
+29. Kik azok a tanárok/szerződéses alkalmazottak, akiknek van bankszámlája, de nem szerepelnek a bankban ügyfélként? Írj lekérdezést ami vissza adja a nevüket és számlaszámukat
+30. Az összes osztályt nézve, mi az átlaguk a diákoknak abból a tantárgyból, ami a szakkört, érettségi felkészítőt vagy rendezvény szervezésben résztvevő tanároknak az elsődleges tantárgya?
+31. Tovább dondolva az előző kérdést, az előző kérdésben szereplő tanárok által tanított elsődleges tantárgyból mi az osztályátlaga a "8.C" osztálynak? A lekérdezés adja vissza a tanár nevét, az általa tanított főtantárgy megnevezését, osztályátlagot, mint 'ÁTLAG'
+32. 
