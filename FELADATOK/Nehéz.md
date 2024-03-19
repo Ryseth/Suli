@@ -57,7 +57,7 @@ Megoldásukhoz szükséges ismeret:
     4. Ha ezek megvoltak, akkor lehet törölni a *tanarok* táblából Nikodémusz rekordját
     ``` 
 14. Az első és második helyezést elért diákok megrovásait az igazgató elengedi. Törölt ezeknek a diákoknak az intőit az *intok* táblából (ha volt nekik)
-15. Az iskola híres arról, hogy csak olyan tanárokat vesznek fel, akik pont betöltötték a 20. életévüket. Ennek fényében fissítsd lekérdezés segítségével a tanárok táblát és állítsd be a tanárok bruttó bérét az alábbiak szerint:
+15. Az iskola híres arról, hogy csak olyan tanárokat vesznek fel, akik pont betöltötték a 20. életévüket. Ennek fényében frissítsd lekérdezés segítségével a tanárok táblát és állítsd be a tanárok bruttó bérét az alábbiak szerint:
     ```
     Ha a tanár :
     - Kevesebb, mint 1 éve van az iskolánál, akkor bruttó bére: 326000 Ft, ami a bérminimum
