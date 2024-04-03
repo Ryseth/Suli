@@ -1,4 +1,4 @@
-### BEVEZETŐ FELADATOK
+### KÖNNYŰ FELADATOK
 Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MAX, MIN, AVG
 
 1. Írj egy lekérdezést, amely kilistázza az összes diák nevét!
