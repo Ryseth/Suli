@@ -17,8 +17,8 @@ Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MA
 14. Listázd ki, milyen tantárgyakból indult emelt felkészítő.
 15. Listázd ki az osztályok nevét, azonosítóját.
 16. Hány "Lídia" nevű diák jár az iskolába? listázd ki őt/őket és minden adatukat is
-17. Hány "Dávid" nevű diák jár az iskolába? listázd ki, melyik városból járnak be minden nap.
-18. Mikor született "Szőcs Gábri" nevű diák?
+17. Hány "Ligeti" vezetéknevű diák jár az iskolába? listázd ki, melyik városból járnak be minden nap.
+18. Mikor született "Kondor Randolf" nevű diák?
 19. Mi a legidősebb diák neve és születési helye?
 20. Melyik diáknak/diákoknak van eddig 10-nél több igazolt hiányzása?
 21. Melyik diáknak van eddig a legtöbb igazolatlan hiányzása?
