@@ -15,7 +15,7 @@ Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MA
 12. Mekkora pénzforgalmat generáltak az ügyfelek eddig?
 13. Hány szerződéses alkalmazottal dolgozik eggyütt az iskola jelenleg?
 14. Listázd ki, milyen tantárgyakból indult emelt felkészítő.
-15. Listázd ki az osztályok nevét, tantermük nevét és azonosítóját.
+15. Listázd ki az osztályok nevét, azonosítóját.
 16. Hány "Lídia" nevű diák jár az iskolába? listázd ki őt/őket és minden adatukat is
 17. Hány "Dávid" nevű diák jár az iskolába? listázd ki, melyik városból járnak be minden nap.
 18. Mikor született "Szőcs Gábri" nevű diák?
