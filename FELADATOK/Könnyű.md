@@ -1,5 +1,5 @@
 ### KÖNNYŰ FELADATOK
-Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MAX, MIN, AVG
+Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MAX, MIN, AVG, SUM, stb...
 
 1. Írj egy lekérdezést, amely kilistázza az összes diák nevét!
 2. Hány osztályzat került eddig kiosztásra?
