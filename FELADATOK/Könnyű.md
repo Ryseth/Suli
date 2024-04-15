@@ -46,7 +46,7 @@ Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MA
 43. Készíts lekérdezést, ami vissza adja azoknak a vállalkozóknak a nevét akik valamilyen formában (akár fő, akár mellék foglalkozásuk) 'Gépjármű Technikus'
 44. Készíts lekérdezést, ami vissza adja azoknak a versenyeknek a sportág azonosítóját és dátumát, amin indultak az iskola diákjai 2021-ben.
 45. Kinek van a legnagyobb hitele a banknál?
-46. Kinek van a legkevesebb kitele a banknál? (azok közül, akiknek van hitele)
+46. Kinek van a legkevesebb hitele a banknál? (azok közül, akiknek van hitele)
 47. Hány embernek nincs banki hitele?
 48. Hány gödöllőinek van hitele? irasd ki ezeknek az ügyfeleknek a nevét, lakcímét, fedezetét és hitelösszegét.
 49. Van olyan Ügyfél, aki jelenleg végtörleszteni tudná a hitelét? (Akkor tudja végtörleszteni a hitelét, ha a fedezete nagyobb, mint a hitele)
