@@ -55,7 +55,7 @@ Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MA
 52. Hány diák jár a "3.B" osztályba?
 53. Mekkora ennek az osztálynak a tanterme?
 54. Hány pad van a "9.A" osztály termébe?
-55. Lekérdezés segítségével állapísd meg, hány különböző intő típus létezik az intők táblában.
+55. Lekérdezés segítségével állapítsd meg, hány különböző intő típus létezik az intők táblában.
 56. Mennyi az átlag bruttó bérigénye a azoknak a vállalkozóknak akik Pomázon laknak?
 57. mekkora az osztályzatok átlaga, ha minden osztályzatot beleszámítunk?
 58. Mikor került beírásra a legelső érdemjegy az '1'-es azonosítójú tantárgyhoz? Milyen érdemjegy volt ez?
