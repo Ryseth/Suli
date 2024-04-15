@@ -41,7 +41,7 @@ Megoldásukhoz szükséges ismeret: egyszerű SELECT,WHERE,ORDER BY,DISTINCT, MA
 38. Hány darab "Diákhitel Törlesztés" történt 2018-ban?
 39. Hány tranzakció történt 2021-ben?
 40. Melyik alvállalkozónak van a legnagyobb bruttó bérigénye az iskola körüli munkálatokért?
-41. Kinek van a legkisebb bruttó bérigénye azok közül a vállalkozók közül, akinek fő feladatköre valamilyen "Anyagmozgató"? Irasd ki a nevét, bérigényét és lakcímét.
+41. Kinek van a legkisebb bruttó bérigénye azok közül a vállalkozók közül, akinek fő feladatköre valamilyen "Anyagmozgató"? Írasd ki a nevét, bérigényét és lakcímét.
 42. Készíts lekérdezést, ami vissza adja azoknak a vállalkozóknak a nevét, fő- és mellék feladatait akiknek szerepel '62' a számlaszámukban.
 43. Készíts lekérdezést, ami vissza adja azoknak a vállalkozóknak a nevét akik valamilyen formában (akár fő, akár mellék foglalkozásuk) 'Gépjármű Technikus'
 44. Készíts lekérdezést, ami vissza adja azoknak a versenyeknek a sportág azonosítóját és dátumát, amin indultak az iskola diákjai 2021-ben.
